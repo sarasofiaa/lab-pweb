@@ -44,3 +44,15 @@ sub calcular{
       }
   return ($result);
 }
+
+print $q->header('text/html');
+print<<BLOCK;
+<!DOCTYPE html>
+<html><head><title>Resultado</title>
+<body style="background:#f8b4de;">
+<center>
+<h1 style="color:black;">El resultado es: $resultado</h1>
+<img src="https://static.vecteezy.com/system/resources/previews/001/200/261/non_2x/check-png.png" height="300"type="Google">
+</center>
+</body></html>
+BLOCK
