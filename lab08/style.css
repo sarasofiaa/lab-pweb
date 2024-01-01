@@ -1,0 +1,40 @@
+body{
+	background-color: #f8b4de;
+}
+.centro{
+	text-align: center;
+	margin-top: 50px;
+}
+.buscador{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 44px;
+	background: #303134;
+	border: 1px solid #303134;
+	border-radius: 24px;
+	margin: 15px auto;
+	width: 100%;
+	max-width: 584px;
+}
+.buscar {
+	flex: 1;
+	background-color; transparent;
+	border: none;
+	padding: 15px;
+	color: #ffffff;
+	font-size: 16px;
+	height: 34px;
+}
+.boton {
+	background-color: #303134;
+	border: 1px solid #303134;
+	border-radius: 4px;
+	color: #e8eaed;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin: 15px;
+	padding: 0 16px;
+	height: 36px;
+	cursor: pointer;
+}
